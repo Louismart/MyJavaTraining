@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Abstraction package add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/linkedList/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/linkedList/Demo.java" afterDir="false" />
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Linked list add">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraySecondExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraysExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/linkedList/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/linkedList/Demo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685556937792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Linked list add">
+      <created>1685557301882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685557301882</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ArrayList add" />
     <MESSAGE value="Abstraction package add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstraction package add" />
+    <MESSAGE value="Linked list add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list add" />
   </component>
 </project>
