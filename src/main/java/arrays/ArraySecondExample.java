@@ -9,7 +9,6 @@ public class ArraySecondExample {
             myArrays[i] = i * 10;
         }
         printArray(myArrays);
-
     }
     public static void printArray(int[] array) {
         for (int i=0; i <array.length; i++) {
