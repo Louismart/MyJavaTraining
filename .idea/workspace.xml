@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Linked list add">
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="New changes">
       <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayReverse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraySecondExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraysExample.java" afterDir="false" />
@@ -140,6 +140,7 @@
     <MESSAGE value="ArrayList add" />
     <MESSAGE value="Abstraction package add" />
     <MESSAGE value="Linked list add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked list add" />
+    <MESSAGE value="New changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changes" />
   </component>
 </project>
