@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Math logic pack add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/BaseballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/FootballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/SoccerPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Team.java" afterDir="false" />
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Generics pack add">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/LambdaExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/MyFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/lambdaExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -159,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685620711218</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Generics pack add">
+      <created>1685631493827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685631493827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +182,7 @@
     <MESSAGE value="Linked list add" />
     <MESSAGE value="Old commit" />
     <MESSAGE value="Git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git ignore" />
+    <MESSAGE value="Generics pack add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics pack add" />
   </component>
 </project>
