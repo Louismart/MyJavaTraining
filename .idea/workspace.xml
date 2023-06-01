@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Old commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Git ignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayMaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/hashSet/HashSetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/FizzBuzzCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/MethodsCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/StringEqualCompareTo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685561084695</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Old commit">
+      <created>1685620651978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685620651978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Git ignore">
+      <created>1685620711218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685620711218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +167,7 @@
     <MESSAGE value="Abstraction package add" />
     <MESSAGE value="Linked list add" />
     <MESSAGE value="Old commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Old commit" />
+    <MESSAGE value="Git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git ignore" />
   </component>
 </project>
