@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Git ignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayMaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/hashSet/HashSetCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/FizzBuzzCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/MethodsCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/StringEqualCompareTo.java" afterDir="false" />
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Math logic pack add">
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/BaseballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/FootballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/SoccerPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -28,10 +31,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="New_branch" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QZJHWGFSV3dPEx1i6CreYFUUsX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,18 +48,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27589545",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27589545&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="generics" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Demo2">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.linkedList.Demo" />
@@ -99,8 +110,8 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
