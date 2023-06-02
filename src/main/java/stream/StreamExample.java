@@ -1,15 +1,18 @@
 package stream;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamExample {
 
     public static void main(String[] args) {
-        integerStream1();
-        integerStreamSkip2();
-        integerStreamSum3();
-        sortedStream4();
+//        integerStream1();
+//        integerStreamSkip2();
+//        integerStreamSum3();
+//        sortedStream4();
+        arrayStream5();
 
     }
         public static void integerStream1() {
@@ -44,5 +47,14 @@ public class StreamExample {
                 .sorted()
                 .findFirst()
                 .ifPresent(System.out::println);
+    }
+
+    public static void arrayStream5() {
+        //5. Stream from Array, sort, filter and print
+        String[] names = {"Al", "Ankit", "Kushal", "Brent", "Sarika", "amanda", "Hans", "Shivika", "Sandra"};
+        Arrays.stream(names)  //same as the Stream.of(names)
+                .filter(x -> x.startsWith("S"))
+                .sorted()
+                .forEach(System.out::println);
     }
 }
