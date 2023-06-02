@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Lambda  expression pack add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Ferrari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Mazeratti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Porsche.java" afterDir="false" />
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Polymorphism pack add">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Challenge2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Challenge2/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Challenge2/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Challenge2/Saveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/movieExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/movieExample/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambdaExpressions/lambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/lambdaExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +51,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.27589545&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27589545",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="generics" />
@@ -172,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685634016240</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Polymorphism pack add">
+      <created>1685703206112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685703206112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +205,7 @@
     <MESSAGE value="Git ignore" />
     <MESSAGE value="Generics pack add" />
     <MESSAGE value="Lambda  expression pack add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda  expression pack add" />
+    <MESSAGE value="Polymorphism pack add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism pack add" />
   </component>
 </project>
