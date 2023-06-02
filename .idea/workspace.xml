@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Generics pack add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/LambdaExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/MyFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/lambdaExample.java" afterDir="false" />
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Lambda  expression pack add">
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Mazeratti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorhism/Porsche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambdaExpressions/lambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaExpressions/lambdaExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685631493827</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lambda  expression pack add">
+      <created>1685634016240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685634016240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +193,7 @@
     <MESSAGE value="Old commit" />
     <MESSAGE value="Git ignore" />
     <MESSAGE value="Generics pack add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generics pack add" />
+    <MESSAGE value="Lambda  expression pack add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda  expression pack add" />
   </component>
 </project>

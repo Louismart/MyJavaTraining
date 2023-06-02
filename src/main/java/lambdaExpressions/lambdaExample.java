@@ -5,7 +5,6 @@ import java.util.Comparator;
 public class lambdaExample {
 
     public static void main(String[] args) {
-
         Comparator<String> stringComparator = new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
