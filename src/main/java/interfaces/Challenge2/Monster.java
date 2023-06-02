@@ -17,17 +17,10 @@ public class Monster implements Saveable {
         this.name = name;
     }
 
-    public int getHitPoints() {
-        return hitPoints;
-    }
-
     public void setHitPoints(int hitPoints) {
         this.hitPoints = hitPoints;
     }
 
-    public int getStrenght() {
-        return strenght;
-    }
 
     public void setStrenght(int strenght) {
         this.strenght = strenght;

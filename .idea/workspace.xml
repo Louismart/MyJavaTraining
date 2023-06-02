@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Interfaces pack add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/BaseballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/FootballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/SoccerPlayer.java" afterDir="false" />
+    <list default="true" id="4d060a42-1bd5-4a85-8e8e-a4c9fc55115e" name="Changes" comment="Stream pack add">
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/Challenge2/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Challenge2/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/StreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685706038831</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Stream pack add">
+      <created>1685723815833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685723815833</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +238,7 @@
     <MESSAGE value="Lambda  expression pack add" />
     <MESSAGE value="Polymorphism pack add" />
     <MESSAGE value="Interfaces pack add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interfaces pack add" />
+    <MESSAGE value="Stream pack add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream pack add" />
   </component>
 </project>
