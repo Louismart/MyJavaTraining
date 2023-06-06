@@ -24,9 +24,9 @@ public class StreamExample {
 //        fromFileAndSaveStream9();
 //        streamRowsCvsFileAndCount10();
 //        streamRowsCvsFileAndParse11();
-//        streamRowsCvsFileAndStoreInHashMap12();
+        streamRowsCvsFileAndStoreInHashMap12();
 //        reductionSum13();
-        reductionSummaryStatistic14();
+//        reductionSummaryStatistic14();
 
     }
     //1. Integer Stream
@@ -122,8 +122,7 @@ public class StreamExample {
     //12. Stream rows from CSV file and store fields in HashMap
     public static void streamRowsCvsFileAndStoreInHashMap12() throws IOException {
         Stream<String> rows3 = Files.lines(Paths.get("src\\main\\java\\stream\\data.txt"));
-        Map<String, Integer> map = new HashMap<>();
-        map = rows3
+        Map<String, Integer> map = rows3
                 .map(x -> x.split(","))
                 .filter(x -> x.length == 3)
                 .filter(x -> Integer.parseInt(x[1]) > 15)
