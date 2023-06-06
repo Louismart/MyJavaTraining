@@ -3,10 +3,7 @@ package stream;
 import java.io.IOException;
 import java.nio.file.Files;
  import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -27,7 +24,9 @@ public class StreamExample {
 //        fromFileAndSaveStream9();
 //        streamRowsCvsFileAndCount10();
 //        streamRowsCvsFileAndParse11();
-        streamRowsCvsFileAndStoreInHashMap12();
+//        streamRowsCvsFileAndStoreInHashMap12();
+//        reductionSum13();
+        reductionSummaryStatistic14();
 
     }
     //1. Integer Stream
@@ -138,7 +137,14 @@ public class StreamExample {
     }
         //13. Reduction - sum
         public static void reductionSum13() throws IOException {
-
-        }
-
+        double total = Stream.of(7.3, 1.5, 4.8)
+                .reduce(0.0, (Double a, Double b) -> a + b);
+            System.out.println("Total = " + total);
+    }
+    //14. Reduction - summary statistic
+    public static void reductionSummaryStatistic14() throws IOException {
+        IntSummaryStatistics summary = IntStream.of(7, 2, 19, 88, 73, 4, 10)
+                        .summaryStatistics();
+        System.out.println(summary);
+    }
 }
