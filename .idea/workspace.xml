@@ -57,6 +57,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27589545",
     "settings.editor.selected.configurable": "preferences.pluginManager"
+
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,6 +68,7 @@
   <component name="RunManager" selected="Application.TestClass">
     <configuration name="Fibanacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mathLogic.Fibanacci" />
+
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -84,6 +86,7 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="composition.personalComputer.*" />
+
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.StreamExample" />
+    <configuration name="RoomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composition.room.RoomTest" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="composition.room.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,7 +140,7 @@
         <item itemvalue="Application.RoomTest" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.PCTest" />
-      </list>
+     </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
