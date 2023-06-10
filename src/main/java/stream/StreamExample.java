@@ -16,7 +16,8 @@ public class StreamExample {
 //        integerStream1();
 //        integerStreamSkip2();
 //        integerStreamSum3();
-//        sortedStream4();
+//        findFirstElement4();
+        findLastElement4_1();
 //        arraySortedStream5();
 //        averageSquares6();
 //        listSortedStream7();
@@ -24,7 +25,7 @@ public class StreamExample {
 //        fromFileAndSaveStream9();
 //        streamRowsCvsFileAndCount10();
 //        streamRowsCvsFileAndParse11();
-        streamRowsCvsFileAndStoreInHashMap12();
+ //       streamRowsCvsFileAndStoreInHashMap12();
 //        reductionSum13();
 //        reductionSummaryStatistic14();
 
@@ -52,11 +53,16 @@ public class StreamExample {
         System.out.println();
 
     }
-    //4. Stream.of, sorted and FindFirst
-        public static void sortedStream4() {
-        Stream.of("Ava", "Aneri", "Alberto")
-                .sorted()
+    //4. Stream.of, FindFirst element
+        public static void findFirstElement4() {
+        Stream.of("Ava", "Aneri", "Alberto", "Muchacho", "Alvaro", "Jesus")
                 .findFirst()
+                .ifPresent(System.out::println);
+    }
+    //4.1 Steam.of Find Last element by Reduce
+    public static void findLastElement4_1() {
+        Stream.of("Ava", "Aneri", "Alberto", "Muchacho", "Alvaro", "Jesus")
+                .reduce((first, second) -> second)
                 .ifPresent(System.out::println);
     }
     //5. Stream from Array, sort, filter and print
