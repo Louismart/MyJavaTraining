@@ -4,8 +4,8 @@ public class TestClass implements Vehicle, Auto {
 
     public static void main(String[] args) {
 
-        Vehicle vehicle = new TestClass();
-        vehicle.drive();
+        Vehicle testClass = new TestClass();
+        testClass.drive();
         Auto.drive();
 
     }
