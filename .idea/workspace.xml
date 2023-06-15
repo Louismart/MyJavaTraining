@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="Inheritance ex 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" afterDir="false" />
+    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="OOP simple ex">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Fibanacci">
+  <component name="RunManager" selected="Application.MainCarTest">
     <configuration name="Fibanacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mathLogic.Fibanacci" />
       <module name="MyJavaTraining" />
@@ -98,9 +95,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCarTest" />
         <item itemvalue="Application.Fibanacci" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainCarTest" />
         <item itemvalue="Application.StreamExample" />
       </list>
     </recent_temporary>
@@ -114,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1686392608218</updated>
     </task>
+    <task id="LOCAL-00001" summary="OOP simple ex">
+      <created>1686758032436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686758032436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,5 +131,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OOP simple ex" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP simple ex" />
   </component>
 </project>
