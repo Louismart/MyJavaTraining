@@ -1,5 +1,8 @@
 package methodReferenceChallege;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainCarTest {
     public static void main(String[] args) {
 
@@ -30,7 +33,7 @@ public class MainCarTest {
         car1.setName("Opel");
         car2.setName("Citroen");
 
-        //  car2 = car1; //true
+        car2 = car1; // if the object reference is occurring , then 1 object always equals to 2 object  [true]
         car2.setName("Opel");
         car1.setName("Mazda");
         car1.setName("VW");

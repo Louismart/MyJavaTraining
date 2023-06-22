@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="OOP simple ex">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/FrequentNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/IntMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/OddTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,12 +48,12 @@
   }
 }</component>
   <component name="RunManager" selected="Application.MainCarTest">
-    <configuration name="Fibanacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathLogic.Fibanacci" />
+    <configuration name="ArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayDuplicates" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathLogic.*" />
+          <option name="PATTERN" value="interfaces.functionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +61,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodReferenceChallege.Main" />
+    <configuration name="FrequentNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.FrequentNumbers" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodReferenceChallege.*" />
+          <option name="PATTERN" value="interfaces.functionalInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.functionalInterface.IntMain" />
+      <module name="MyJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.functionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.StreamExample" />
+    <configuration name="OddTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodReferenceChallege.OddTest" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -96,9 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainCarTest" />
-        <item itemvalue="Application.Fibanacci" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.FrequentNumbers" />
+        <item itemvalue="Application.ArrayDuplicates" />
+        <item itemvalue="Application.OddTest" />
+        <item itemvalue="Application.IntMain" />
       </list>
     </recent_temporary>
   </component>
@@ -135,5 +156,56 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OOP simple ex" />
     <option name="LAST_COMMIT_MESSAGE" value="OOP simple ex" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
