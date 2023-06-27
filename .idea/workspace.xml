@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="OOP simple ex">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/FrequentNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/IntMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/OddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/CommonElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/someTask/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +43,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainCarTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayDuplicates" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interfaces.functionalInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.CommonElements" />
+      <module name="MyJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.functionalInterface.IntMain" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="someTask.Main" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.functionalInterface.*" />
+          <option name="PATTERN" value="someTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodReferenceChallege.OddTest" />
-      <module name="MyJavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methodReferenceChallege.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ArrayDuplicates" />
+        <item itemvalue="Application.CommonElements" />
         <item itemvalue="Application.MainCarTest" />
         <item itemvalue="Application.FrequentNumbers" />
-        <item itemvalue="Application.ArrayDuplicates" />
-        <item itemvalue="Application.OddTest" />
-        <item itemvalue="Application.IntMain" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686758032436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OOP simple ex">
+      <created>1687434915471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687434915471</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +165,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -204,6 +207,91 @@
           <url>file://$PROJECT_DIR$/src/main/java/interfaces/functionalInterface/MainSquare.java</url>
           <line>19</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,6 @@
 package arrays;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -21,7 +22,7 @@ public class ArrayDuplicates {
         // mostFrequent(array5) should return -1.
         int[] array5 = {0, -1, 10, 10, -1, 10, -1, -1, -1, 1};
 
-        System.out.println(mostFrequent(array2));
+        System.out.println(Arrays.toString(new Integer[]{mostFrequent(array5)}));
     }
 
     public static Integer mostFrequent(int[] givenArray) {
