@@ -3,7 +3,7 @@ package mathLogic;
 public class Palindrome {
     public static void main(String[] args) {
 
-        System.out.println(isPolindromeString("KAYAKI"));
+        System.out.println(isPolindromeString("KAYAK"));
         //System.out.println(isPolindromeStringBuilder("KAYAK"));
         //reverseStringBuilder("KOROVA");
         //reverseString("DOHODY");
@@ -15,7 +15,7 @@ public class Palindrome {
             return false;
         int lenght = str.length();
 
-        for (int i = 0; i < lenght / 2; i++) {
+        for (int i = 0; i < lenght/2; i++) {
 
             if (str.charAt(i) != str.charAt(lenght - i - 1))
                 return false;
