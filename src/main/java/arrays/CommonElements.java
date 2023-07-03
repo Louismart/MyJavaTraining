@@ -32,7 +32,7 @@ public class CommonElements {
         // Need to use ArrayList because we don't know the size of the resulting
         // array yet. Note that an ArrayList is resizable.
         ArrayList<Integer> result = new ArrayList();
-         while(p1 < array1.length && p2 < array2.length){
+        while(p1 < array1.length && p2 < array2.length){
             if (array1[p1] == array2[p2]) {
                 result.add(array1[p1]);
                 p1 += 1;

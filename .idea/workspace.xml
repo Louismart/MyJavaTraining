@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="OOP simple ex">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstraction/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/SumCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/SumFirstHalfAndSecondHalfOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java" afterDir="false" />
+    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="Next ex">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/OddEvenFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/SumCompare2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/privateAndDefaultMethods/MainCarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/CommonElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/CommonElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstraction/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/SumCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/SumCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/challenge1/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/privateAndDefaultMethods/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/privateAndDefaultMethods/SportCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/privateAndDefaultMethods/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/privateAndDefaultMethods/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/privateAndDefaultMethods/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/privateAndDefaultMethods/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +35,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="new_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2R0gq4mK6FaZcxaQFYBH04FJkPE" />
   <component name="ProjectViewState">
@@ -46,19 +54,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27589545",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/JavaRushTasks",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumFirstHalfAndSecondHalfOfArray">
-    <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayReverse" />
+  <component name="RunManager" selected="Application.MainCarTest">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.privateAndDefaultMethods.Car" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="interfaces.privateAndDefaultMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,25 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathLogic.Palindrome" />
+    <configuration name="MainCarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.privateAndDefaultMethods.MainCarTest" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathLogic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathLogic.StringDuplicates" />
-      <module name="MyJavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mathLogic.*" />
+          <option name="PATTERN" value="interfaces.privateAndDefaultMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumFirstHalfAndSecondHalfOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SumFirstHalfAndSecondHalfOfArray" />
+    <configuration name="SumCompare2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.SumCompare2" />
+      <module name="MyJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoDimArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.TwoDimArrays" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumFirstHalfAndSecondHalfOfArray" />
-        <item itemvalue="Application.ArrayReverse" />
+        <item itemvalue="Application.TwoDimArrays" />
+        <item itemvalue="Application.SumCompare2" />
         <item itemvalue="Application.SumCompare" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.StringDuplicates" />
+        <item itemvalue="Application.MainCarTest" />
+        <item itemvalue="Application.Car" />
       </list>
     </recent_temporary>
   </component>
@@ -151,14 +161,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687434915471</updated>
     </task>
-    <task id="LOCAL-00003" summary="OOP simple ex">
-      <created>1687858205892</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1687858205892</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OOP simple ex" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP simple ex" />
+    <MESSAGE value="Next ex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Next ex" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,88 +224,138 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="45" />
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="46" />
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/Palindrome.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/CommonElements.java</url>
           <line>23</line>
-          <option name="timeStamp" value="49" />
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>11</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java</url>
-          <line>15</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>8</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>10</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>12</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>13</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arrays/SumCompare.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>14</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arrays/SumCompare.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>19</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arrays/SumCompare.java</url>
-          <line>11</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>20</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arrays/SumCompare.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>21</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arrays/SumCompare.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TwoDimArrays.java</url>
+          <line>23</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>

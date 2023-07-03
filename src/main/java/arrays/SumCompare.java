@@ -1,32 +1,34 @@
 package arrays;
 
-//Compare sum of first N-1 elements to Nth element of an array
+//Compare sum of first half of array elements to second half elements of an array
 public class SumCompare {
 
-    // Function that returns true if sum of
-    // first n-1 elements of the array is
-    // equal to the last element
-    static boolean isSumEqual(int[] ar) {
+    public static void isSumEqual(int[] ar, int n) {
 
-        // Find the sum of first n-1 elements of the array
-        int sum = 0;
-        int i;
-        for (i = 0; i < ar.length - 1; i++)
-            sum += ar[i];
-        System.out.println(sum);
+        int sumFirst = 0, sumSecond = 0;
+        for (int i = 0; i < n ; i++) {
 
-        // If sum equals to the last element
-        if (sum == ar[ar.length - 1]) {
-            return true;
+            // Add elements in first half sum
+            if (i < n / 2) {
+                sumFirst += ar[i];
+            }
+            // Add elements in the second half sum
+            else {
+                sumSecond += ar[i];
+            }
         }
-        return false;
+        System.out.println("Sum of first half element is " + sumFirst);
+        System.out.println("Sum of second half element is " + sumSecond);
+
     }
 
     public static void main(String[] args) {
 
-        int[]arr = {2,2,3,4,11};
-                //  0 1 2 3 4
-        System.out.println(isSumEqual(arr));
+        int[] arr = {2, 2, 3, 4, 2, 5, 2};
+        int n = arr.length;
+
+        isSumEqual(arr, n);
 
     }
+
 }
