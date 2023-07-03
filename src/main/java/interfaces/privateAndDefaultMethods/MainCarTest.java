@@ -9,7 +9,7 @@ public class MainCarTest {
         System.out.println(car.slowDown());
         car.drive();  //Call method drive from Vehicle
         SportCar.drive();  // Call method drive from SportCar directly , because its static method
-        SportCar car1 = new Car("Bugatti");
+        SportCar.drive();  // Call method drive from SportCar directly , because its static method
 
     }
 }
