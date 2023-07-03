@@ -1,6 +1,6 @@
 package interfaces.privateAndDefaultMethods;
 
-public interface Auto {
+public interface SportCar  {
 
     static void drive() {
         System.out.println("Auto can drive");
