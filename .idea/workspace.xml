@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="git ignore file add" />
+    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="Small tweak">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mathLogic/StringEqualCompareTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mathLogic/StringEqualCompareTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2R0gq4mK6FaZcxaQFYBH04FJkPE" />
   <component name="ProjectViewState">
@@ -40,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainCarTest">
     <configuration name="ArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayDuplicates" />
       <module name="MyJavaTraining" />
@@ -60,19 +67,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrequentNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.FrequentNumbers" />
-      <module name="MyJavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.functionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringEqualCompareTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathLogic.StringEqualCompareTo" />
+      <module name="MyJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mathLogic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCarTest" />
+        <item itemvalue="Application.StringEqualCompareTo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrayDuplicates" />
         <item itemvalue="Application.CommonElements" />
-        <item itemvalue="Application.MainCarTest" />
-        <item itemvalue="Application.FrequentNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688420312326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Small tweak">
+      <created>1688420522385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688420522385</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OOP simple ex" />
     <MESSAGE value="git ignore file add" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore file add" />
+    <MESSAGE value="Small tweak" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small tweak" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
