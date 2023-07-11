@@ -21,6 +21,9 @@ public class MainCarTest {
         String str2 = "BMW";
 
 
+
+
+
         Car car1 = new Car("Audi");
      //   System.out.println(car1.hashCode());
 
@@ -32,10 +35,10 @@ public class MainCarTest {
 //        System.out.println(car2.hashCode());
 
         //     System.out.println(car1.equals(car2));
-//        car1.setName("Opel");
-//        car2.setName("Citroen");
+        car1.setName("Opel");
+        car2.setName("Citroen");
 //
-//        car2 = car1; // if the object reference is occurring , then 1 object always equals to 2 object  [true]
+//        car2 = car1; // if the object reference is occurring , then 1 object always equals to 2 object  [true], despite of subsequent changes made
 //        car2.setName("Opel");
 //        car1.setName("Mazda");
 //        car1.setName("VW");
@@ -46,8 +49,8 @@ public class MainCarTest {
         System.out.println(str1 == str2);
         System.out.println(str1.equals(str2));
 
-        System.out.println(car1.equals(car2));
-        System.out.println(car1 == car2);
+//        System.out.println(car1.equals(car2));
+//        System.out.println(car1 == car2);
 
 
 
