@@ -21,9 +21,6 @@ public class MainCarTest {
         String str2 = "BMW";
 
 
-
-
-
         Car car1 = new Car("Audi");
      //   System.out.println(car1.hashCode());
 
@@ -46,11 +43,11 @@ public class MainCarTest {
 
 
 //        System.out.println(car1.equals(car2));
-        System.out.println(str1 == str2);
-        System.out.println(str1.equals(str2));
+//        System.out.println(str1 == str2);
+//        System.out.println(str1.equals(str2));
 
-//        System.out.println(car1.equals(car2));
-//        System.out.println(car1 == car2);
+        System.out.println(car1.equals(car2));
+        System.out.println(car1 == car2);
 
 
 
