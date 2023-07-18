@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="Small tweak">
+      <change afterPath="$PROJECT_DIR$/src/main/java/someTask/Any.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mathLogic/StringEqualCompareTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mathLogic/StringEqualCompareTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodReferenceChallege/MainCarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainCarTest">
+  <component name="RunManager" selected="Application.CompareTwoStringsLexicographically">
     <configuration name="ArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayDuplicates" />
       <module name="MyJavaTraining" />
@@ -62,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.CommonElements" />
+    <configuration name="CompareTwoStringsLexicographically" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathLogic.CompareTwoStringsLexicographically" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="mathLogic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +78,7 @@
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="someTask.*" />
+          <option name="PATTERN" value="mathLogic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareTwoStringsLexicographically" />
         <item itemvalue="Application.MainCarTest" />
         <item itemvalue="Application.StringEqualCompareTo" />
         <item itemvalue="Application.ArrayDuplicates" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CommonElements" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689073112656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Small tweak">
+      <created>1689589258308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689589258308</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
