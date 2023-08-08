@@ -10,7 +10,7 @@ public class SumFirstHalfAndSecondHalfOfArray {
         for (int i = 0; i < arr.length; i++) {
 
             // Add elements in first half sum
-            if (arr[i] < arr.length/2) {
+            if (i < arr.length/2) {
                 sumFirst +=arr[i];
             }
             // Add elements in the second half sum
