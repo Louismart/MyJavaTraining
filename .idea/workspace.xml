@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="Compare two strings lexicographically">
+    <list default="true" id="d48fc745-53ac-4362-9efa-f9bab9d1c659" name="Changes" comment="Small fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mathLogic/BubbleSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArrayMaxValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayMaxValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/SumFirstHalfAndSecondHalfOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/SumFirstHalfAndSecondHalfOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mathLogic/StringDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mathLogic/StringEqualCompareTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mathLogic/StringEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/someTask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/someTask/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +49,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SumFirstHalfAndSecondHalfOfArray">
-    <configuration name="ArrayMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayMaxValue" />
+  <component name="RunManager" selected="Application.StringDuplicates">
+    <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayReverse" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTwoStringsLexicographically" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathLogic.CompareTwoStringsLexicographically" />
+    <configuration name="BubbleSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathLogic.BubbleSorting" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodReferenceChallege.MainCarTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="someTask.Main" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodReferenceChallege.*" />
+          <option name="PATTERN" value="someTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumCompare2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SumCompare2" />
+    <configuration name="StringDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathLogic.StringDuplicates" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="mathLogic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumFirstHalfAndSecondHalfOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SumFirstHalfAndSecondHalfOfArray" />
+    <configuration name="StringEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathLogic.StringEquals" />
       <module name="MyJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="mathLogic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumFirstHalfAndSecondHalfOfArray" />
-        <item itemvalue="Application.SumCompare2" />
-        <item itemvalue="Application.ArrayMaxValue" />
-        <item itemvalue="Application.CompareTwoStringsLexicographically" />
-        <item itemvalue="Application.MainCarTest" />
+        <item itemvalue="Application.StringDuplicates" />
+        <item itemvalue="Application.BubbleSorting" />
+        <item itemvalue="Application.ArrayReverse" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StringEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689710738866</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Small fix">
+      <created>1691523588105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691523588105</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +230,8 @@
     <MESSAGE value="git ignore file add" />
     <MESSAGE value="Small tweak" />
     <MESSAGE value="Compare two strings lexicographically" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compare two strings lexicographically" />
+    <MESSAGE value="Small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

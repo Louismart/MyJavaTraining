@@ -6,7 +6,6 @@ public class StringDuplicates {
 
     public static void main(String[] args) {
         String s = "abcdefga";
-
         System.out.print(check(s));
     }
 

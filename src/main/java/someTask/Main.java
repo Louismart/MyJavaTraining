@@ -11,7 +11,7 @@ public class Main {
         wc.addWord("banana");
         wc.addWord("apple");
 
-        System.out.println(wc.getWordCount("apple") == 2);
+        System.out.println(wc.getWordCount("apple")) ;
         System.out.println(wc.getWordCount("banana") == 1);
         System.out.println(wc.getWordCount("cucumber") == 0);
     }

@@ -1,6 +1,6 @@
 package mathLogic;
 
-public class StringEqualCompareTo {
+public class StringEquals {
 
     public static void main(String[] args) {
 
@@ -20,12 +20,12 @@ public class StringEqualCompareTo {
         str6 = "Honey";
 
 // Resolve all lines with False or True
-//        System.out.println((str1.equals(str3))); //true
-//        System.out.println((str1.equals(str2))); //false
-//        System.out.println((str2.equals(str3))); //false
-//        System.out.println(str1==str3); // true
-//        System.out.println(str1==str2); //false
-//        System.out.println(str2==str3); // false
+        System.out.println((str1.equals(str3))); //true
+        System.out.println((str1.equals(str2))); //false
+        System.out.println((str2.equals(str3))); //false
+        System.out.println(str1==str3); // true
+        System.out.println(str1==str2); //false
+        System.out.println(str2==str3); // false
 
         System.out.println((str4.equals(str6))); //true
         System.out.println((str4.equals(str5))); //false
